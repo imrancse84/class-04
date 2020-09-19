@@ -1,0 +1,47 @@
+*{
+
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body{
+	background:linear-gradient(145deg, #84c906, #9def07);
+}
+
+.container{
+	padding: 100px 120px;
+	width: 1200px;
+	margin: 100px auto;
+	overflow: hidden;
+}
+p {
+	font-size: 22px;
+	line-height: 1.6;
+}
+p span{
+	background-color: red;
+	color: #fff;
+	padding: 5px 20px;
+	display: inline-block; 
+}
+
+a{
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 5px 20px;
+	background-color: #fff;
+	display: inline-block;
+}
+.box{
+	width: 33.33%;
+	float: left;
+	padding: 20px;
+
+}
+article{
+	
+	 padding: 80px 35px;
+	 background:linear-gradient(145deg, #84c906, #9def07);
+	 box-shadow: 35px 35px 70px #7dbe06, -35px -35px 70px #a9ff08;
+	 border-radius: 30px
+}
